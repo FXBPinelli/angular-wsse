@@ -1,10 +1,10 @@
 'use strict';
 
 angular
-  .module('Wsse')
-  .factory('WsseService', WsseService);
-
-function WsseService() {
+  .module('app.wsse', [])
+  .factory('wsseservice', wsseservice);
+  
+function wsseservice() {
 
   var service = {};
   service.generateCreatedDate = generateCreatedDate;
