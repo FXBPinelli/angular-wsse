@@ -1,6 +1,8 @@
-# angular-Wsse
+# angular-wsse
 
 This is an angular service to help generate a WSSE Header for API calls.
+
+It is developed based on the John Papa's style guide (https://github.com/johnpapa/angular-styleguide#services).
 
 ## Installation
 
@@ -41,4 +43,6 @@ You will need so set in the X-WSSE header.
 
 ## License
 
-This project is released over MIT License
+This project is released over [MIT License](http://opensource.org/licenses/MIT)
+
+## Any contribution welcome
