@@ -1,6 +1,6 @@
 {
   "name": "angular-wsse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Wsse service to generate the header needed for API calls",
   "main": "wsse.service.js",
   "scripts": {
@@ -17,8 +17,8 @@
     "api",
     "header"
   ],
-  "dependencies": { 
-	"crypto-js" : "latest"
+  "dependencies": {
+    "crypto-js": "latest"
   },
   "author": "FXBPinelli <barbarin.pinelli@gmail.com>",
   "license": "MIT",
