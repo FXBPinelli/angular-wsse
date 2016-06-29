@@ -17,6 +17,10 @@
     "api",
     "header"
   ],
+  "dependencies" :
+  { 
+	"crypto-js" : "latest"
+  }
   "author": "FXBPinelli <barbarin.pinelli@gmail.com>",
   "license": "MIT",
   "bugs": {
