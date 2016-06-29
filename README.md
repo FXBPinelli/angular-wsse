@@ -6,10 +6,18 @@ It is developed based on the John Papa's style guide (https://github.com/johnpap
 
 ## Installation
 
-1. bower : `bower install angular-wsse`
+1. bower : `bower install angular-wsse` | npm : `npm install angular-wsse --save`
 2. Modify your application to include `wsseservice` in your application dependencies.
+3. Add the following to get the global variable CryptoJS working : 
+```
+"overrides": {
+  "crypto-js": {
+    "main": "crypto-js.js"
+  }
+}
+```
 
-This Service uses CryptosJS (https://code.google.com/p/crypto-js/) to encode and decode things (SHA1, SHA512, Base64, Utf8).
+This Service uses CryptosJS (https://code.google.com/archive/p/crypto-js/) to encode and decode things (SHA1, SHA512, Base64, Utf8) and has a dependency to the package crypto-js (https://www.npmjs.com/package/crypto-js)
 
 
 ## How to use it
