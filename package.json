@@ -1,0 +1,26 @@
+{
+  "name": "angular-wsse",
+  "version": "0.0.1",
+  "description": "A Wsse service to generate the header needed for API calls",
+  "main": "wsse.service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FXBPinelli/angular-wsse.git"
+  },
+  "keywords": [
+    "wsse",
+    "angular",
+    "service",
+    "api",
+    "header"
+  ],
+  "author": "FXBPinelli <barbarin.pinelli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FXBPinelli/angular-wsse/issues"
+  },
+  "homepage": "https://github.com/FXBPinelli/angular-wsse#readme"
+}
